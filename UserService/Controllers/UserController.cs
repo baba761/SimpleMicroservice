@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using UserService.Database;
-using UserService.Database.Entity;
-
-
+﻿
 namespace UserService.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc;
+    using UserService.Database;
+    using UserService.Database.Entity;
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
